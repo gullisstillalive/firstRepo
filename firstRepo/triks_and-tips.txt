@@ -7,3 +7,4 @@ ks1['age']=ks1['age'].replace(np.nan, mean)
 
 df=df.dropna(subset=['age'], axis=0, inplace=True) # remove values from specfic coloumn 
 
+my first repo
