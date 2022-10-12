@@ -1,0 +1,9 @@
+triks_and-tips
+
+df1.loc[648]
+df['Size']=df['size'].apply(lambda x: int(x.split(' ')[0]))
+ks1['age']=ks1['age'].replace(np.nan, mean)
+
+
+df=df.dropna(subset=['age'], axis=0, inplace=True) # remove values from specfic coloumn 
+
